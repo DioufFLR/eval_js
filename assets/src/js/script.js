@@ -1,4 +1,4 @@
-// exercice 1
+// exercice 1 moyenne
 
 let age = parseInt(prompt("Saisissez votre age, rentrez un centenaire pour arrêter la saisie"));
 let jeunes = 0;

@@ -12,7 +12,7 @@ let index = tab.indexOf(prenomMaj);
 console.log(index);
 
 if (index >= 0 && index <= 9) {
-    tab.splice(index - 1, 1);
+    tab.splice(index, 1);
     tab.push(" ");
 } else {
     alert("Ce prénom n'est pas renseigné dans le tableau")

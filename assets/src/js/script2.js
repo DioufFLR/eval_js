@@ -1,18 +1,19 @@
 // Exercice 2 Table de multiplication
 
 let i = 0;
-let multiple = parseInt(prompt("Choisissez une table de multiplication"));
+let x = parseInt(prompt("Choisissez une table de multiplication"));
 let fois = parseInt(prompt("À quelle valeur souhaitez vous arrêter votre table de multiplication ?"));
 let result;
 
-function tableMultiplication() {
+
+function tableMultiplication(x) {
     while (i !== fois) {
         i++;
-        result = i * multiple;
-        console.log(i + "x" + multiple + " = " + result);
-        document.write(multiple + " x " + i + " = " + result + "<br>");
+        result = i * x;
+        console.log(i + "x" + x + " = " + result);
+        document.write(x + " x " + i + " = " + result + "<br>");
     }
 }
 
-tableMultiplication();
+tableMultiplication(x);
 

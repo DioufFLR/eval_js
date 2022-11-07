@@ -6,7 +6,7 @@ let moyens = 0;
 let vieux = 0;
 let centenaire = 0;
 
-while (age <= 100) {
+while (age < 100) {
     if (age < 20) {
         jeunes++;
     } else {
